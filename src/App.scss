@@ -1,11 +1,13 @@
-@import './partials/colors';
-@import './partials/container';
-@import './partials/flex-style';
-@import './partials/font-sizes';
-@import './partials/grid-styles';
-@import './partials/reset-code';
-@import './partials/responsive';
-@import './partials/button-style';
+@import './Partials/colors';
+@import './Partials/container';
+@import './Partials/flex-style';
+@import './Partials/font-sizes';
+@import './Partials/grid-styles';
+@import './Partials/reset-code';
+@import './Partials/responsive';
+@import './Partials/button-style';
+@import './Components/Home/home';
+@import './Components/Header/header';
 
 
 .App {

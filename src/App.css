@@ -1,13 +1,33 @@
-.container-lg {
+.lg-container {
   width: 1400px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.container-md {
+.md-container {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.position {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topLeftItems {
+  margin-right: 15px;
 }
 
 * {
@@ -15,6 +35,35 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.topBar {
+  height: 54px;
+  background-color: white;
+}
+
+.menuBar {
+  height: 67px;
+  background-color: white;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu > ul {
+  list-style: none;
+}
+
+.menu > ul li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.menu > ul li a {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 .App {

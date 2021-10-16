@@ -1,15 +1,17 @@
 // container use for display size:- 1430 pixel 
-.container-lg{
+.lg-container{
     width: 1400px;
     padding-right: 15px;
     padding-left: 15px;
 }
 
 // container use for display size:- 1200 pixel 
-.container-md{
+.md-container{
     width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
+    margin: 0 auto;
+    
 }
 
 
